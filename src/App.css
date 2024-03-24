@@ -24,14 +24,63 @@
   color: white;
 }
 
+input[type="range"] {
+  display: flex;
+  align-items: center;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+
+
+.scroll-container {
+  max-height: 200px;
+  overflow-y: auto;
+  height: 168px;
+  overflow-x: hidden;
+  overflow-y: visible;
+  flex-wrap: wrap;
+  display: flow;
+}
+
+.scroll-container h6 {
+  margin: 5px 0;
+}
+
+#correct {
+  color: rgb(75, 162, 75);
+}
+
+#incorrect {
+  color: rgb(189, 53, 53);
+}
+
+button {
+  background-color: #282c34;
+  width: 20%;
+  height: 36px;
+  color: white;
+  border: 2px solid blueviolet;
+  border-radius: 7px;
+}
+
+button:hover {
+  background-color: #09634e;
+  color: #cacbcd;
+}
+
+button:active {
+  background-color: #61dafb;
+  color: #282c34;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
