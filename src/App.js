@@ -44,8 +44,6 @@ function App() {
           id="range"
         />
         <p>Value: {userGuess}</p>
-
-
         <button onClick={SubmitHandler}>Submit</button>
         <p>Number of guesses : {userCount}</p>
         <p>userGuess :
